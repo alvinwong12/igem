@@ -1,8 +1,8 @@
-.bg-blue{
+.bg-blue {
     background-color: deepskyblue;
 }
 
-.section{
+.section {
     background-repeat: no-repeat;
     /* background-size: contain; */
     background-size: 100% 100%;
@@ -11,14 +11,42 @@
     position: relative;
 }
 
-#section1{
+#section1 {
     background-image: url("./section1.png");
 }
 
-#section2{
+#section2 {
     background-image: url("./section2.png");
 }
 
-#section3{
+#section2-content {
+    margin-left: 20%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+#section2>#section2-content>p {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#section2>#section2-content>button {
+    border-color: white;
+    border-width: 5px;
+    background: transparent;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section3 {
     background-image: url("./section3.png");
 }
