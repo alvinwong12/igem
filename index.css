@@ -1,0 +1,24 @@
+.bg-blue{
+    background-color: deepskyblue;
+}
+
+.section{
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#section1{
+    background-image: url("./section1.png");
+}
+
+#section2{
+    background-image: url("./section2.png");
+}
+
+#section3{
+    background-image: url("./section3.png");
+}
